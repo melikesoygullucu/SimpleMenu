@@ -16,7 +16,7 @@ struct ContentView: View {
                 ForEach(menu){ section in
                     Section(section.name){
                         ForEach(section.items){ item in
-                            Text(item.name)
+                            ItemRow(item: item)
                         }
                     }
                 }
@@ -26,6 +26,26 @@ struct ContentView: View {
             
         }
         
+    }
+}
+
+struct ItemRow: View {
+    let item: MenuItem
+    
+    var body: some View {
+        HStack {
+            Image(item.thumbnailImage)
+            VStack(alignment: .leading){
+                Text(item.name)
+                Text("$\(item.price)")
+            }
+        }
+    }
+}
+
+struct ItemRow_Previews: PreviewProvider {
+    static var previews: some View {
+        ItemRow(item: MenuItem.example)
     }
 }
 
