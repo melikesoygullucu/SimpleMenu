@@ -17,7 +17,6 @@
 		4D50F13E2C1AD0F40050775A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F13D2C1AD0F40050775A /* Order.swift */; };
 		4D50F1402C1B03E90050775A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F13F2C1B03E90050775A /* ItemRow.swift */; };
 		4D50F1422C1B1E200050775A /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F1412C1B1E200050775A /* ItemDetail.swift */; };
-		4D50F1442C1C0EB30050775A /* IDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F1432C1C0EB30050775A /* IDineApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		4D50F13D2C1AD0F40050775A /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../../Downloads/idine/Order.swift; sourceTree = "<group>"; };
 		4D50F13F2C1B03E90050775A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		4D50F1412C1B1E200050775A /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
-		4D50F1432C1C0EB30050775A /* IDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDineApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				4D50F1282C19B9C70050775A /* SimpleMenuApp.swift */,
-				4D50F1432C1C0EB30050775A /* IDineApp.swift */,
 				4D50F12A2C19B9C70050775A /* ContentView.swift */,
 				4D50F1412C1B1E200050775A /* ItemDetail.swift */,
 				4D50F13F2C1B03E90050775A /* ItemRow.swift */,
@@ -162,7 +159,6 @@
 				4D50F1422C1B1E200050775A /* ItemDetail.swift in Sources */,
 				4D50F12B2C19B9C70050775A /* ContentView.swift in Sources */,
 				4D50F1292C19B9C70050775A /* SimpleMenuApp.swift in Sources */,
-				4D50F1442C1C0EB30050775A /* IDineApp.swift in Sources */,
 				4D50F13E2C1AD0F40050775A /* Order.swift in Sources */,
 				4D50F1402C1B03E90050775A /* ItemRow.swift in Sources */,
 				4D50F13C2C1AD0EE0050775A /* Menu.swift in Sources */,
