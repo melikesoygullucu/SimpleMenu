@@ -18,6 +18,7 @@
 		4D50F1402C1B03E90050775A /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F13F2C1B03E90050775A /* ItemRow.swift */; };
 		4D50F1422C1B1E200050775A /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F1412C1B1E200050775A /* ItemDetail.swift */; };
 		4D50F2AC2C2487C50050775A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F2AB2C2487C50050775A /* OrderView.swift */; };
+		4D50F2AE2C2489E00050775A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D50F2AD2C2489E00050775A /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4D50F13F2C1B03E90050775A /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		4D50F1412C1B1E200050775A /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		4D50F2AB2C2487C50050775A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		4D50F2AD2C2489E00050775A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				4D50F1282C19B9C70050775A /* SimpleMenuApp.swift */,
 				4D50F12A2C19B9C70050775A /* ContentView.swift */,
+				4D50F2AD2C2489E00050775A /* MainView.swift */,
 				4D50F1412C1B1E200050775A /* ItemDetail.swift */,
 				4D50F2AB2C2487C50050775A /* OrderView.swift */,
 				4D50F13F2C1B03E90050775A /* ItemRow.swift */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D50F1422C1B1E200050775A /* ItemDetail.swift in Sources */,
+				4D50F2AE2C2489E00050775A /* MainView.swift in Sources */,
 				4D50F2AC2C2487C50050775A /* OrderView.swift in Sources */,
 				4D50F12B2C19B9C70050775A /* ContentView.swift in Sources */,
 				4D50F1292C19B9C70050775A /* SimpleMenuApp.swift in Sources */,

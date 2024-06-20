@@ -17,7 +17,7 @@ struct OrderView: View {
                         HStack{
                             Text(item.name)
                             Spacer()
-                            Text("Price: \(item.price)")
+                            Text("$\(item.price)")
                         }
                     }
                 }
